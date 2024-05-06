@@ -1,4 +1,4 @@
-```python
+
 class User:
     def __init__(self, user_id, name, access_level='user'):
         self.__user_id = user_id
@@ -50,4 +50,3 @@ admin.remove_user(1)
 print("\nAfter removing user 1:")
 for user in admin.get_user_list():
     print(f"User ID: {user.get_user_id()}, Name: {user.get_name()}, Access Level: {user.get_access_level()}")
-```
